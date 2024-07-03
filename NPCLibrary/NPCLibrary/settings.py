@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-k@p82)%6^8nn!rg!i0^6yccj_#s$d&67mpf_+jp6%ow4%g@$@&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.gitpod.io', '.herokuapp.com', '.codeinstitute-ide.net']
 
 
 # Application definition
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'NPCLibrary.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
