@@ -20,3 +20,7 @@ def about(request):
 def writingadvice(request):
     #return HttpResponse("This is the Writing advice page.")
     return render(request, 'writing-advice.html')
+
+def NPCList(request):
+    #return HttpResponse("This is the Writing advice page.")
+    return render(request, 'NPCList.html')
