@@ -1,6 +1,6 @@
 from django.db import models 
 
-Class NPC(models.Model):
+class NPC(models.Model):
     name = models.CharField(max_length=100)
     genre = models.CharField(max_length=100)
     job = models.CharField(max_length=100)

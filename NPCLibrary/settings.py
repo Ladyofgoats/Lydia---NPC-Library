@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('django-insecure-k@p82)%6^8nn!rg!i0^6yccj_#s$d&67mpf_+jp6%ow4%g@$@&')
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -91,8 +91,7 @@ WSGI_APPLICATION = 'NPCLibrary.wsgi.application'
 #}
 
 DATABASES = {
-'default':
-dj_database_url.parse(os.environ.get("postgres://udft1pzoj6w:MHVsTbtM19Sz@ep-gentle-mountain-a23bxz6h.eu-central-1.aws.neon.tech/salt_fox_stool_317990"))
+    'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 
 

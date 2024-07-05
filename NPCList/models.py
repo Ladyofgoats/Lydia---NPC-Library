@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
- Class NPC(models.Model):
+class NPC(models.Model):
     name = models.CharField(max_length=100)
     genre = models.CharField(max_length=100)
     job = models.CharField(max_length=100)
