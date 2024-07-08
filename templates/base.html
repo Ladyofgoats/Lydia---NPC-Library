@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +8,7 @@
     <title>NPC Hotel</title>
 
     <!-- CSS LINKS -->
-    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}" />>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
      <!-- BOOTSTRAP -->
      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
       <!-- FONTS ETC. -->
@@ -17,12 +19,15 @@
 <body>
 
     <!-- NAV -->
+     <nav>
     <button onclick="window.location.href='https://lydia-npc-library.onrender.com/'">Homepage</button>
     <button onclick="window.location.href='https://lydia-npc-library.onrender.com/about/'">About</button>
     <button onclick="window.location.href='https://lydia-npc-library.onrender.com/NPCList/'">NPC List</button>
     <button onclick="window.location.href='https://lydia-npc-library.onrender.com/writingadvice/'">Writing Advice</button>
+     </nav>
     
-    {% block content %}
+    
+     {% block content %}
     <!-- Content Goes here -->
     {% endblock content %}
 
