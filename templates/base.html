@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NPC Hotel</title>
 
     <!-- CSS LINKS -->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}" />>
      <!-- BOOTSTRAP -->
+     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
       <!-- FONTS ETC. -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+
+      <title>NPC Library - You're one stop for all quick NPC ideas!</title>
 </head>
 <body>
 
     <!-- NAV -->
+    <button onclick="window.location.href='https://lydia-npc-library.onrender.com/'">Homepage</button>
+    <button onclick="window.location.href='https://lydia-npc-library.onrender.com/about/'">About</button>
+    <button onclick="window.location.href='https://lydia-npc-library.onrender.com/NPCList/'">NPC List</button>
+    <button onclick="window.location.href='https://lydia-npc-library.onrender.com/writingadvice/'">Writing Advice</button>
     
     {% block content %}
     <!-- Content Goes here -->
@@ -19,5 +28,16 @@
 
 
     <!-- FOOTER -->
+    <div class="card">
+        <div class="card-header">
+          Words of inspiration
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>After nourishment, shelter and companionship, stories are the thing we need most in the world.</p>
+            <footer class="blockquote-footer">Someone famous probably</footer>
+          </blockquote>
+        </div>
+      </div>
 </body>
 </html>
