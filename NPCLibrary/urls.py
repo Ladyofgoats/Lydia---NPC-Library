@@ -12,6 +12,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
+    path('admin/',admin.site.urls),
     path('', views.homepage, name='homepage'),
     path('about/', views.about, name='about'),
     path('writingadvice/', views.writingadvice, name='writingadvice'),
