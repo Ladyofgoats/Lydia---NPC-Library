@@ -8,5 +8,12 @@
 <body>
     <h1>NPC Entry</h1>
     <p>NPC Entry page</p>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">It's Alive!</button>
+    </form>
 </body>
 </html>
+
+

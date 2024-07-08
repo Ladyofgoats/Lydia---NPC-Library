@@ -8,13 +8,10 @@ from django.contrib import admin
     #url(r'^$',views.homepage)
 #]
 
-from django.urls import path
-from . import views
+from django.urls import path, include
+from django.contrib import admin
 
 urlpatterns = [
     path('admin/',admin.site.urls),
-    path('', views.homepage, name='homepage'),
-    path('about/', views.about, name='about'),
-    path('writingadvice/', views.writingadvice, name='writingadvice'),
-     path('NPCList/', views.NPCList, name='NPClist'),
+    path('', include('NPCList.urls')),  
 ]
