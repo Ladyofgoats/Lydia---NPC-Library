@@ -15,7 +15,7 @@ body {
 .header h1 {
     position: absolute;
     top: 19px;
-    left: 24px;
+    left: 26px;
     width: 641px;
     font-size: 40px;
     font-weight: bold;
@@ -26,13 +26,13 @@ body {
 .sign-up-section {
     position: absolute;
     top: 192px;
-    left: 32px;
+    left: 35px;
 }
 
 .login-section {
     position: absolute;
     top: 342px;
-    left: 32px;
+    left: 35px;
 }
 
 .label {
