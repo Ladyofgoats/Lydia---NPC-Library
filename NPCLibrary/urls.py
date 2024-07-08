@@ -2,11 +2,11 @@
 #from django.urls import path
 #from . import views
 
-#urlpatterns = [
-    #path('admin/',admin.site.urls),
+urlpatterns = [
+    path('admin/',admin.site.urls),
     #url(r'^about/$',views.about),
     #url(r'^$',views.homepage)
-#]
+]
 
 from django.urls import path
 from . import views

@@ -7,3 +7,6 @@ class NPC(models.Model):
     description = models.TextField(max_length=400)
     date = models.DateTimeField(auto_now_add=True)
     user = models.ForeignKey('auth.User', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.title
