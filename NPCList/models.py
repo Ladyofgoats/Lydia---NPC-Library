@@ -7,5 +7,5 @@ class NPC(models.Model):
     job = models.CharField(max_length=100)
     description = models.TextField(max_length=300)
     date = models.DateTimeField(auto_now_add=True)
-    user = models.ForeignKey
+    user = models.ForeignKey('auth.User', on_delete=models.CASCADE)
 
