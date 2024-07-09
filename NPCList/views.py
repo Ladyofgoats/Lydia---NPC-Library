@@ -1,28 +1,31 @@
 from django.shortcuts import render, redirect
+from django.contrib.auth.decorators import login_required
 from .models import NPC
 from .forms import NPCentries
 
 # Create your views here.
-#def npc_entries(request):
-    #return render(request, 'app-templates/npc-entries.html')
 
+@login_required
 def homepage(request):
-    " home_page view"
-    return render(request,'index.html')
+    """Home page view"""
+    return render(request, 'NPCList/homepage.html')  # Ensure this template exists
 
-
+@login_required
 def about(request):
-    " about view"
-    return render(request,'about.html')
+    """About view"""
+    return render(request, 'NPCList/about.html')
 
+@login_required
 def writingadvice(request):
-    " writingadvice view"
-    return render(request, 'writingadvice.html')
+    """Writing advice view"""
+    return render(request, 'NPCList/writingadvice.html')
 
-
+@login_required
 def NPCguests(request):
-    " NPCguests view"
-    return render(request, 'NPCguests.html')
+    """NPC guests view"""
+    return render(request, 'NPCList/NPCguests.html')
+
+
 
 
 
