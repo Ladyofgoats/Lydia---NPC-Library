@@ -11,6 +11,20 @@
     {% block content %}
     <h1>Index.html</h1>
     <p>Stuff and things</p>
+    <div class="sign-up-section">
+        <div class="label">Username:</div>
+        <input type="text" class="text-input" id="username-signup">
+        <div class="label">Password:</div>
+        <input type="password" class="text-input" id="password-signup">
+        <button class="button" id="signup-button">Sign up</button>
+    </div>
+    <div class="login-section">
+        <div class="label">Username:</div>
+        <input type="text" class="text-input" id="username-login">
+        <div class="label">Password:</div>
+        <input type="password" class="text-input" id="password-login">
+        <button class="button" id="login-button">Log in</button>
+    </div>
     {%endblock%}
 </body>
 </html>
