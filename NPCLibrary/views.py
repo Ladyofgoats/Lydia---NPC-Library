@@ -19,8 +19,8 @@ def about(request):
 
 def writingadvice(request):
     #return HttpResponse("This is the Writing advice page.")
-    return render(request, 'writing-advice.html')
+    return render(request, 'writingadvice.html')
 
-def NPCList(request):
+def NPCguests(request):
     #return HttpResponse("This is the Writing advice page.")
-    return render(request, 'NPCList.html')
+    return render(request, 'NPCguests.html')

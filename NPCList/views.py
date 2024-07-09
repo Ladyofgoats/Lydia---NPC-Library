@@ -8,14 +8,18 @@ from .forms import NPCentries
 
 def homepage(request):
     " home_page view"
-
     return render(request,'index.html')
 
 
 def about(request):
     " about view"
-
     return render(request,'about.html')
+
+def writingadvice(request):
+    " writingadvice view"
+    return render(request, 'writingadvice.html')
+
+
 
 
 # def NPCentries(request):
