@@ -1,3 +1,5 @@
+{% extends "base.html" %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +8,7 @@
     <title>Writing advice</title>
 </head>
 <body>
+    {% block content %}
     <header>
     <h1>NPC Library - You're one stop for all quick NPC ideas! - Writing Advice!</h1>
     </header>
@@ -23,9 +26,7 @@
         <li> It's your game too, don't be afraid to have fun!</li>
     </ol>
 
-    <button onclick="window.location.href='https://lydia-npc-library.onrender.com/'">Homepage</button>
-    <button onclick="window.location.href='https://lydia-npc-library.onrender.com/about/'">About</button>
-    <button onclick="window.location.href='https://lydia-npc-library.onrender.com/NPCList/'">NPC List</button>
-    <button onclick="window.location.href='https://lydia-npc-library.onrender.com/writingadvice/'">Writing Advice</button>
+    
 </body>
+{%endblock%}
 </html>

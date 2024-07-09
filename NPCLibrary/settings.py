@@ -65,7 +65,7 @@ ROOT_URLCONF = 'NPCLibrary.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates', TEMPLATES_DIR],
+        'DIRS': [os.path.join(BASE_DIR, 'templates', TEMPLATES_DIR, )],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -77,6 +77,7 @@ TEMPLATES = [
         },
     },
 ]
+
 
 WSGI_APPLICATION = 'NPCLibrary.wsgi.application'
 

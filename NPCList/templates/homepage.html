@@ -1,12 +1,15 @@
+{% extends "base.html" %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{% static 'assets/css/style.css' %}" />>
-    <title>NPC Library - You're one stop for all quick NPC ideas! - Sign in page</title>
+    <title>NPC Library - You're one stop for all quick NPC ideas!</title>
 </head>
 <body>
+    {% block content %}
     <header>
     <div class="canvas">
         <div class="header">
@@ -38,4 +41,5 @@
     <button onclick="window.location.href='https://lydia-npc-library.onrender.com/writingadvice/'">Writing Advice</button>
 
 </body>
+{%endblock%}
 </html>
