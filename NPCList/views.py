@@ -16,9 +16,9 @@ def about(request):
     return render(request, 'NPCList/about.html')
 
 @login_required
-def writingadvice(request):
+def writing_advice(request):
     """Writing advice view"""
-    return render(request, 'NPCList/writingadvice.html')
+    return render(request, 'NPCList/writing_advice.html')
 
 @login_required
 def NPCguests(request):
