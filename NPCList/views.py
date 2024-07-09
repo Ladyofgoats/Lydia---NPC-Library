@@ -20,6 +20,11 @@ def writingadvice(request):
     return render(request, 'writingadvice.html')
 
 
+def NPCguests(request):
+    " NPCguests view"
+    return render(request, 'NPCguests.html')
+
+
 
 
 # def NPCentries(request):
