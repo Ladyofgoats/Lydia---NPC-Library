@@ -28,3 +28,11 @@ class Migration(migrations.Migration):
             ],
         ),
     ]
+
+    operations = [
+        migrations.AddField(
+            model_name='task',
+            name='priority',
+            field=models.CharField(choices=[('Helpful'), ('Plot'), ('Antagonist')], default='M', max_length=1),
+        ),
+    ]
