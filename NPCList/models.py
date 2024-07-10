@@ -5,7 +5,6 @@ STATUS = ((0, "Draft"), (1, "Published"))
 
 class NPC(models.Model):
     name = models.CharField(max_length=100)
-    slug = models.SlugField(max_length=200, unique=True)
     genre = models.CharField(max_length=100)
     job = models.CharField(max_length=100)
     description = models.TextField(max_length=300)
