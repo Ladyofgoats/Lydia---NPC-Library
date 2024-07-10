@@ -16,6 +16,15 @@
         <p>All NPC's on this page were either created by the creator of the site or one of our other users!</p>
     </header>
     <p>Enjoy!</p>
+    <div class ="entries">
+        {% for entries in entries %}
+        <div class="entries">
+        <h2><a href="">{{ entries.title }}</a></h2>
+        <p>{{ entires.body }}</p>
+        <p>{{ entries.date }}</p>
+        </div>
+        {% endfor %}
+        </div>
 
     
 </body>

@@ -27,15 +27,6 @@ def NPCguests(request):
 
 
 
-
-
-
-# def NPCentries(request):
-#     if request.method == 'POST':
-#         form = NPCentries(request.POST)
-#         if form.is_valid():
-#             form.save()
-#             return redirect('blog:entry_list')  # Replace 'entry_list' with your actual URL name for listing entries
-#     else:
-#         form = NPCentries()
-#     return render(request, 'template/NPCentries.html', {'form': form})
+def NPCentries(request):
+    entries = NPC.object.all.order_by('date')
+    return render(request, 'entires/NPCguests.html', {'entries':entries})
