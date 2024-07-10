@@ -128,6 +128,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CSRF_TRUSTED_ORIGINS = [
     'https://*.gitpod.io',
     'https://8000-ladyofgoats-lydianpclib-hseaob2ge48.ws.codeinstitute-ide.net',
+    'https://8000-ladyofgoats-lydianpclib-hseaob2ge48.ws.codeinstitute-ide.net/'
 ]
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
