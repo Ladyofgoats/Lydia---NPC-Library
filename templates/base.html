@@ -1,9 +1,5 @@
 {% load static %}
 
-{% url 'account_login' as login_url %}
-{% url 'account_signup' as signup_url %}
-{% url 'account_logout' as logout_url %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,60 +10,105 @@
     <!-- CSS LINKS -->
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
     <!-- BOOTSTRAP -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <!-- FONTS ETC. -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
 
     <title>NPC Library - Your one stop for all quick NPC ideas!</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        main {
+            flex: 1;
+        }
+        .container {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>NPC Library - Your one stop for all quick NPC ideas!</h1>
+    <header class="bg-light py-3 mb-4">
+        <div class="container">
+            <h1>NPC Library - Your one stop for all quick NPC ideas!</h1>
+        </div>
     </header>
+    
     <!-- NAV -->
-    <nav>
-        <a href="{% url 'homepage' %}" class="btn">Homepage</a>
-        <a href="{% url 'about' %}" class="btn">About</a>
-        <a href="{% url 'NPCguests' %}" class="btn">NPC Guests</a>
-        <a href="{% url 'writingadvice' %}" class="btn">Writing Advice</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'homepage' %}">NPC Library</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == '/' %}active{% endif %}" href="{% url 'homepage' %}">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == '/about/' %}active{% endif %}" href="{% url 'about' %}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == '/NPCguests/' %}active{% endif %}" href="{% url 'NPCguests' %}">NPC Guests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {% if request.path == '/writingadvice/' %}active{% endif %}" href="{% url 'writingadvice' %}">Writing Advice</a>
+                    </li>
+                    {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
+                    </li>
+                    {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'account_signup' %}">Register</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'account_login' %}">Login</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    {% if user.is_authenticated %}
-    <li class="nav-item">
-        <a class="nav-link {% if request.path == logout_url %}active{% endif %}" aria-current="page" href="{% url 'account_logout' %}">Logout</a>
-    </li>
-    {% else %}
-    <li class="nav-item">
-        <a class="nav-link {% if request.path == signup_url %}active{% endif %}" aria-current="page" href="{% url 'account_signup' %}">Register</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link {% if request.path == login_url %}active{% endif %}" aria-current="page" href="{% url 'account_login' %}">Login</a>
-    </li>
-    {% endif %}
-
-    {% block content %}
-    <!-- Content Goes here -->
-    {% endblock content %}
+    <main class="container mb-4">
+        {% block content %}
+        <!-- Content Goes here -->
+        {% endblock content %}
+    </main>
 
     <!-- FOOTER -->
-    <footer>
-        <div class="card">
-            <div class="card-header">
-                Words of inspiration
-            </div>
-            <div class="card-body">
-                <blockquote class="blockquote mb-0">
-                    <p>After nourishment, shelter and companionship, stories are the thing we need most in the world.</p>
-                    <footer class="blockquote-footer">Phillip Pullman</footer>
-                </blockquote>
+    <footer class="bg-light py-3 mt-4">
+        <div class="container">
+            <div class="card">
+                <div class="card-header">
+                    Words of inspiration
+                </div>
+                <div class="card-body">
+                    <blockquote class="blockquote mb-0">
+                        <p>After nourishment, shelter and companionship, stories are the thing we need most in the world.</p>
+                        <footer class="blockquote-footer">Phillip Pullman</footer>
+                    </blockquote>
+                </div>
             </div>
         </div>
     </footer>
 
     <!-- Bootstrap JS and dependencies -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
 </body>
 </html>
+
+
+
 

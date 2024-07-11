@@ -1,24 +1,33 @@
 {% extends "base.html" %}
 
 {% block content %}
-<header>
+<header class="mb-4">
     <h2>Peruse our collection of NPC's!</h2>
     <p>All NPC's on this page were either created by the creator of the site or one of our other users!</p>
 </header>
 <p>Enjoy!</p>
-<a href="{% url 'create_npc' %}" class="btn btn-primary">Create an NPC</a>
-<div class="entries">
-    {% for entry in entries %}
-    <div class="entry">
-        <h2><a href="#">{{ entry.name }}</a></h2>
-        <p>{{ entry.genre }}</p>
-        <p>{{ entry.job }}</p>
-        <p>{{ entry.description }}</p>
-        <p>{{ entry.date }}</p>
+<a href="{% url 'create_npc' %}" class="btn btn-primary mb-4">Create an NPC</a> <!-- Use 'create_npc' as defined in urls.py -->
+<div class="container">
+    <div class="row">
+        {% for entry in entries %}
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="card-title"><a href="#">{{ entry.name }}</a></h2>
+                    <p class="card-text">Genre: {{ entry.genre }}</p>
+                    <p class="card-text">Job: {{ entry.job }}</p>
+                    <p class="card-text">{{ entry.description }}</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">{{ entry.date }}</small>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </div>
 {% endblock %}
+
 
 
 

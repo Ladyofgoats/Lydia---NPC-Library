@@ -1,90 +1,106 @@
+/* General Styles */
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #A9A9A9;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light background color */
 }
 
-.canvas {
-    width: 712px;
-    height: 603px;
-    background-color: #5f5f5f;
-    position: relative;
+/* Header */
+header {
+    background-color: #343a40; /* Dark background for the header */
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 2rem;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #343a40 !important; /* Navbar text color */
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #007bff !important; /* Hover color for navbar items */
+}
+
+/* Main Content */
+main.container {
+    padding: 2rem;
+    background-color: #ffffff; /* White background for main content */
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Subtle shadow for the container */
+}
+
+/* Form Styling */
+form {
+    max-width: 600px;
     margin: 0 auto;
 }
 
-.header h1 {
-    position: absolute;
-    top: 19px;
-    left: 26px;
-    width: 641px;
-    font-size: 40px;
-    font-weight: bold;
+.form-control {
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 0.25rem;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40; /* Dark background for the footer */
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+footer .card {
+    background-color: #495057; /* Slightly lighter background for the footer card */
+    color: #ffffff;
+}
+
+footer .card-header {
+    background-color: #6c757d;
+    border-bottom: none;
+}
+
+footer .blockquote {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+footer .blockquote-footer {
+    color: #ced4da;
+}
+.card-title a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.card-title a:hover {
+    color: #0056b3;
     text-decoration: underline;
-    color: #3b3e83;
 }
 
-.sign-up-section {
-    position: absolute;
-    top: 192px;
-    left: 35px;
+.card-text {
+    margin-bottom: 0.5rem;
 }
 
-.login-section {
-    position: absolute;
-    top: 342px;
-    left: 35px;
-}
 
-.label {
-    color: #3b3e83;
-    margin-bottom: 5px;
-}
 
-.text-input {
-    width: 186px;
-    height: 27px;
-    margin-bottom: 10px;
-    color: #3b3e83;
-}
-
-.button {
-    display: block;
-    width: 69px;
-    height: 27px;
-    color: #3b3e83;
-    background-color: #D3D3D3;
-    border: none;
-    cursor: pointer;
-}
-
-.button#signup-button {
-    position: absolute;
-    top: 86px;
-    left: 144px;
-}
-
-.button#login-button {
-    position: absolute;
-    top: 104px;
-    left: 158px;
-}
-
-.image-section {
-    position: absolute;
-    top: 191px;
-    left: 352px;
-}
-
-.image-section img {
-    width: 313px;
-    height: 345px;
-}
-
-.footer-text-input {
-    position: absolute;
-    bottom: 19px;
-    left: 16px;
-    width: 641px;
-    height: 27px;
-    color: #3b3e83;
-}
