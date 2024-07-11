@@ -1,6 +1,8 @@
 from django.urls import path
 from . import views
 
+
+
 # app_name = 'NPCList'
 
 urlpatterns = [
@@ -8,6 +10,5 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('writingadvice/', views.writingadvice, name='writingadvice'),
     path('NPCguests/', views.NPCguests, name='NPCguests'),
-    path('', views.PostList.as_view(), name='home'),
        
 ]
