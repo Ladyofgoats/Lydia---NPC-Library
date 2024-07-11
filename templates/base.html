@@ -26,10 +26,10 @@
     </header>
     <!-- NAV -->
     <nav>
-        <a href="{% url 'https://lydia-npc-library.onrender.com/' %}" class="btn">Homepage</a>
-        <a href="{% url 'https://lydia-npc-library.onrender.com/about/' %}" class="btn">About</a>
-        <a href="{% url 'https://lydia-npc-library.onrender.com/NPCguests/' %}" class="btn">NPC Guests</a>
-        <a href="{% url 'https://lydia-npc-library.onrender.com/writingadvice/' %}" class="btn">Writing Advice</a>
+        <a href="{% url 'homepage' %}" class="btn">Homepage</a>
+        <a href="{% url 'about' %}" class="btn">About</a>
+        <a href="{% url 'NPCguests' %}" class="btn">NPC Guests</a>
+        <a href="{% url 'writingadvice' %}" class="btn">Writing Advice</a>
     </nav>
 
     {% if user.is_authenticated %}
