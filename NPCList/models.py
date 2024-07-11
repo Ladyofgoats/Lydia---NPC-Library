@@ -15,8 +15,11 @@ class NPC(models.Model):
         User, on_delete=models.CASCADE, related_name="NPC_posts"
     )
 
+class Meta:
+    ordering = ["-created_on"]
+
     def __str__(self):
-        return self.name
+        return f"{self.title} | written by {self.author}"
 
     def save(self, *args, **kwargs):
         if not self.slug:

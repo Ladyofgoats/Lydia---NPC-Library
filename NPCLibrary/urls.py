@@ -1,4 +1,3 @@
-from django.contrib import admin
 #from django.urls import path
 #from . import views
 
@@ -7,12 +6,13 @@ from django.contrib import admin
     #url(r'^about/$',views.about),
     #url(r'^$',views.homepage)
 #]
-
-from django.urls import path, include
 from django.contrib import admin
+from django.urls import path, include
+
 
 urlpatterns = [
     path('admin/',admin.site.urls),
     path("accounts/", include("allauth.urls")),
     path('', include('NPCList.urls')), 
+    path("", include("NPCList.urls"), name="NPCList-urls"),
 ]

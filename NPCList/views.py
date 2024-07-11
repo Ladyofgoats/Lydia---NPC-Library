@@ -2,8 +2,12 @@ from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from .models import NPC
 from .forms import NPCentries
+from django.views import generic
 
 # Create your views here.
+
+class PostList(generic.ListView):
+    model = NPC
 
 @login_required
 def homepage(request):
