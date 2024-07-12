@@ -49,3 +49,7 @@ def create_npc(request):
 
 
 
+
+
+
+
