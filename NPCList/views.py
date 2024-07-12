@@ -44,6 +44,31 @@ def create_npc(request):
         form = NPCentries()
     return render(request, 'NPCList/add_npc.html', {'form': form})
 
+@login_required
+def edit_npc(request, npc_id):
+    npc = get_object_or_404(NPC, id=npc_id)
+    if request.method == 'POST':
+        form = NPCentries(request.POST, instance=npc)
+        if form.is_valid():
+            form.save()
+            return redirect('NPCguests')
+    else:
+        form = NPCentries(instance=npc)
+    return render(request, 'NPCList/edit_npc.html', {'form': form})
+
+@login_required
+def delete_npc(request, npc_id):
+    npc = get_object_or_404(NPC, id=npc_id)
+    if request.method == 'POST':
+        npc.delete()
+        return redirect('NPCguests')
+    return render(request, 'NPCList/delete_npc.html', {'npc': npc})
+
+@login_required
+def show_npc(request, slug):
+    """Show npc view"""
+    entry = entry.objects.get(slug=slug)
+    return render(request, 'NPCList/show_npc.html', {'entry': entry})
 
 
 

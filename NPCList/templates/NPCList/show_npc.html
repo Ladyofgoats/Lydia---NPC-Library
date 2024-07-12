@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="mb-4">
+    <h2>Peruse our collection of NPC's!</h2>
+    <p>All NPC's on this page were either created by the creator of the site or one of our other users!</p>
+</header>
+<p>Enjoy!</p>
+<a href="{% url 'create_npc' %}" class="btn btn-primary mb-4">Create an NPC</a> <!-- Use 'create_npc' as defined in urls.py -->
+<div class="container">
+    <div class="row">
+        
+    </div>
+</div>
+<ul>
+    {% for npc in npcs %}
+        <li>
+            <a href="{% url 'show_npc' npc.slug %}" class="btn btn-primary mb-4">Show NPC</a> | <a href="{% url 'edit_npc' npc.id %}">Edit</a> | <a href="{% url 'delete_npc' npc.id %}">Delete</a>
+        </li>
+    {% endfor %}
+</ul>
+{% endblock %}
+
+
+
+
+
+
+

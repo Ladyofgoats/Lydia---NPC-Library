@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete NPC</title>
+</head>
+<body>
+    <h1>Delete NPC</h1>
+    <p>Are you sure you want to delete "{{ npc.name }}"?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit">Yes, delete</button>
+    </form>
+    <a href="{% url 'NPCguests' %}">No, cancel</a>
+</body>
+</html>
