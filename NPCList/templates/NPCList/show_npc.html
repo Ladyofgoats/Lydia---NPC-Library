@@ -9,16 +9,19 @@
 <a href="{% url 'create_npc' %}" class="btn btn-primary mb-4">Create an NPC</a> <!-- Use 'create_npc' as defined in urls.py -->
 <div class="container">
     <div class="row">
-        
+        <br>
+       <p><b>Name:</b></p>{{ entry.name }} 
+       <br>
+       <p><b>Genre:</b></p>{{ entry.genre}}
+       <br>
+       <p><b>Job:</b></p>{{ entry.job }}
+       <br>
+       <p><b>Description:</b></p>{{ entry.description }}
+       <br>
+       <p><b>Date and Time:</b></p>{{ entry.date }}
     </div>
 </div>
-<ul>
-    {% for npc in npcs %}
-        <li>
-            <a href="{% url 'show_npc' npc.slug %}" class="btn btn-primary mb-4">Show NPC</a> | <a href="{% url 'edit_npc' npc.id %}">Edit</a> | <a href="{% url 'delete_npc' npc.id %}">Delete</a>
-        </li>
-    {% endfor %}
-</ul>
+
 {% endblock %}
 
 

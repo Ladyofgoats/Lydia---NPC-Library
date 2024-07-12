@@ -66,9 +66,11 @@ def delete_npc(request, npc_id):
 
 @login_required
 def show_npc(request, slug):
-    """Show npc view"""
-    entry = entry.objects.get(slug=slug)
+    """Show NPC view"""
+    entry = NPC.objects.get(slug=slug)
     return render(request, 'NPCList/show_npc.html', {'entry': entry})
+
+
 
 
 

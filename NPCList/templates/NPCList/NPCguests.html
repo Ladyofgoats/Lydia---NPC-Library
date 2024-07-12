@@ -13,7 +13,7 @@
         <div class="col-lg-4 col-md-6 mb-4">
             <div class="card h-100">
                 <div class="card-body">
-                    <h2 class="card-title"><a href="#">{{ entry.name }}</a></h2>
+                    <h2 class="card-title"><a href="{% url 'show_npc' entry.slug %}">{{ entry.name }}</a></h2>
                     <p class="card-text">Genre: {{ entry.genre }}</p>
                     <p class="card-text">Job: {{ entry.job }}</p>
                     <p class="card-text">{{ entry.description }}</p>
@@ -29,7 +29,7 @@
 <ul>
     {% for npc in npcs %}
         <li>
-        <a href="{% url 'show_npc' npc.slug %}" class="btn btn-primary mb-4">Show NPC</a> | <a href="{% url 'edit_npc' npc.id %}">Edit</a> | <a href="{% url 'delete_npc' npc.id %}">Delete</a>
+       {{ npc.name }}<a href="{% url 'show_npc' npc.slug %}" class="btn btn-primary mb-4">Show NPC</a> | <a href="{% url 'edit_npc' npc.id %}">Edit</a> | <a href="{% url 'delete_npc' npc.id %}">Delete</a>
         </li>
     {% endfor %}
 </ul>
