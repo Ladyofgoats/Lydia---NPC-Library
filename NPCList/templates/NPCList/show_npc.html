@@ -21,8 +21,9 @@
        <p><b>Date and Time:</b></p>{{ entry.date }}
     </div>
 </div>
-
-
+<br>
+<a href="{% url 'edit_npc' entry.slug %}">Edit</a>
+<form action="{% url 'delete_npc' entry.slug %}" method="post">{% csrf_token %}<button type="submit">Delete</button></form>
 
 {% endblock %}
 

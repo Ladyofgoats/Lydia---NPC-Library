@@ -1,7 +1,10 @@
+{% extends "base.html" %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    {% block content %}
     <title>Edit NPC</title>
 </head>
 <body>
@@ -13,4 +16,5 @@
     </form>
     <a href="{% url 'NPCguests' %}">Cancel</a>
 </body>
+{% endblock %}
 </html>

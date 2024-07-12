@@ -45,8 +45,8 @@ def create_npc(request):
     return render(request, 'NPCList/add_npc.html', {'form': form})
 
 @login_required
-def edit_npc(request, npc_id):
-    npc = get_object_or_404(NPC, id=npc_id)
+def edit_npc(request, slug):
+    npc = NPC.objects.get(slug=slug)
     if request.method == 'POST':
         form = NPCentries(request.POST, instance=npc)
         if form.is_valid():
@@ -57,18 +57,18 @@ def edit_npc(request, npc_id):
     return render(request, 'NPCList/edit_npc.html', {'form': form})
 
 @login_required
-def delete_npc(request, npc_id):
-    npc = get_object_or_404(NPC, id=npc_id)
+def delete_npc(request, slug):
+    npc = NPC.objects.get(slug=slug)
     if request.method == 'POST':
         npc.delete()
-        return redirect('NPCguests')
-    return render(request, 'NPCList/delete_npc.html', {'npc': npc})
+    return redirect('NPCguests')
 
 @login_required
 def show_npc(request, slug):
     """Show NPC view"""
     entry = NPC.objects.get(slug=slug)
     return render(request, 'NPCList/show_npc.html', {'entry': entry})
+    
 
 
 
