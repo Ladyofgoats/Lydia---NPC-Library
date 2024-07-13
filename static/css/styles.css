@@ -7,7 +7,7 @@ body {
 
 /* Header */
 header {
-    background-color: #343a40; /* Dark background for the header */
+    background-color: #014181; /* Dark background for the header */
     color: #ffffff;
     padding: 1rem 0;
     text-align: center;
@@ -63,7 +63,7 @@ form {
 
 /* Footer */
 footer {
-    background-color: #343a40; /* Dark background for the footer */
+    background-color: #014181; /* Dark background for the footer */
     color: #ffffff;
     padding: 1rem 0;
     text-align: center;
@@ -71,12 +71,12 @@ footer {
 }
 
 footer .card {
-    background-color: #495057; /* Slightly lighter background for the footer card */
+    background-color: #2c3033; /* Slightly lighter background for the footer card */
     color: #ffffff;
 }
 
 footer .card-header {
-    background-color: #6c757d;
+    background-color: #495057;
     border-bottom: none;
 }
 
