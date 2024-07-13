@@ -9,7 +9,7 @@ The Live application for the NPC Library can be found here:
 # Wireframes and Initial Design
 
 ### Home Page
- ![Example Image](https://ladyofgoats-lydianpclib-hseaob2ge48.ws.codeinstitute-ide.net/)
+![Example Image](https://ladyofgoats-lydianpclib-hseaob2ge48.ws.codeinstitute-ide.net/)
 
 ### About Page
 
