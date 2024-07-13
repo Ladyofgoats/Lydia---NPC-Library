@@ -6,17 +6,28 @@ later rather than having to rely on paper notes or one of the other world buildi
 
 The Live application for the NPC Library can be found here:
 
+https://lydia-npc-library.onrender.com
+
+# Purpose and Target Audience
+
+# Persona and User Stories
+
 # Wireframes and Initial Design
 
 ### Home Page
-![Example Image](https://ladyofgoats-lydianpclib-hseaob2ge48.ws.codeinstitute-ide.net/)
+![Home page](static/images/Final-project-home-page.PNG)
 
 ### About Page
+![Home page](static/images/Final-project-About.PNG)
 
 ### NPC Guests
+![Home page](static/images/Final-project-NPC-guests.PNG)
 
 ### Writing Advice
+![Home page](static/images/Final-project-Writing-Advice.PNG)
 
 ### Log in page
+![Home page](static/images/Final-project-Log-in-page.PNG)
 
-### Create an NPC page
+### Submit an NPC page
+![Home page](static/images/Final-project-Submit-an-NPC.PNG)
