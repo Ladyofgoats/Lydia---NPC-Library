@@ -22,8 +22,10 @@
     </div>
 </div>
 <br>
-<a href="{% url 'edit_npc' entry.slug %}">Edit</a>
+
 <form action="{% url 'delete_npc' entry.slug %}" method="post">{% csrf_token %}<button type="submit">Delete</button></form>
+<br>
+<a href="{% url 'edit_npc' entry.slug %}" class="button">Edit</a>
 
 {% endblock %}
 
