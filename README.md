@@ -6,3 +6,17 @@ later rather than having to rely on paper notes or one of the other world buildi
 
 The Live application for the NPC Library can be found here:
 
+# Wireframes and Initial Design
+
+### Home Page
+ ![Example Image](https://ladyofgoats-lydianpclib-hseaob2ge48.ws.codeinstitute-ide.net/)
+
+### About Page
+
+### NPC Guests
+
+### Writing Advice
+
+### Log in page
+
+### Create an NPC page
