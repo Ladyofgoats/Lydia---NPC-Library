@@ -2,21 +2,7 @@
 
 {% load static %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-    <title>NPC Library</title>
-
-.navbar {
-    margin 0 auto;
-}
-
-</head>
-<body>
-    {% block content %}
+{% block content %}
    <h1>Welcome to the NPC Library!</h1>
 
    <p>Greetings weary traveller, or harried Dungeon Master. This is the one stop spot for all your NPC needs. There are a selection of different NPC's to choose from at moments
@@ -41,6 +27,4 @@
         <li>After Jack the giant Killer slew the giant, the giants family must try to continue their lives.</li>
     </ul>
 
-</body>
 {%endblock%}
-</html>
