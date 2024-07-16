@@ -42,7 +42,72 @@ The Target audience for the NPC Library is anyone who wants to keep track of var
 ![Submit an NPC page](static/images/Final-project-Submit-an-NPC.PNG)
 
 # Agile
-For this project I used the agile development method, this was not something I had done before as a solo developer so I took some time at the start of the project to try to go through and do everything properly from the start.I found by creating the Kanban board and user stroies I was able to priorotise and guide myself to fulfil the project criteria. I was able to reduce the normal amoun tof anxiety and stress I feel when working to a tight dealine by staying focused on one objective at a time.
+For this project I used the agile development method, this was not something I had done before as a solo developer so I took some time at the start of the project to try to go through and do everything properly from the start.I found by creating the Kanban board and user stroies I was able to priorotise and guide myself to fulfil the project criteria. I was able to reduce the normal amount of anxiety and stress I feel when working to a tight dealine by staying focused on one objective at a time.
+
 ![Kanban Board](static/images/Kanban-board-final-project.PNG)
 
 # Aesthetic Choices
+The colours for the website were picked to give a clean and functional look without distracting bright colours. I tried to have the colour go from lighter to darker as it went down the page.
+
+Header - #014181
+Text - #ffffff
+Footer - #014181
+Footer Secondary Colour - #495057 / #2c3033
+Fonts - Arial 
+
+## Features
+
+### Log In
+The log in page allows anyone who wants to use the website to sign up or log in with a previously created account. 
+### Homepage
+A user must make an acount with the website before they are allowed to reach the homepage, I made this so anyone interested in the website would have the oppotunity to create entry's for their own use.
+
+### About page
+
+### Writing Advice
+
+### NPC Guests
+
+The NPC guests page is where users can add new NPC's as well as edit and delte their own entry's. This entry will then be visible on the NPC guest page.
+
+# Future Plans
+In the future I would like to add the following:
+* Add a searchbar to make it easier to find specific NPC's.
+* Add tags to each entry so they can be marked as Side Quests, Antagonists and Main plot specific NPC's.
+* A central list of NPC's anyone can contribute to and can be moderated.
+* A way to form a community, perhaps adding a socail media presence.
+* Add a way to make comments on their entry's to mark important events.
+* Add a linknig system so one NPC can link to another.
+
+### Database Design
+![Database Design](static/images/Lucid-App-final-project-database-network.PNG)
+
+I created the Entity Relationship Diagram to help me visaulise how my tables relate to each other, Lucidchart proved a helpful tool in doing so.
+
+### NPC Library Flowchart
+![NPC Library Flowchat](static/images/Lucid-app-final-project-flowchart.PNG)
+
+I found the flowchat helpful in visualising what parts of the website needed to be completed in what order as well as tracking down where in the website changes I made might have run into issues.
+
+# Validation
+## HTML Validation
+
+
+## CSS Validation
+![Validation for my CSS](static/images/Final-Project-CSS-Validation.PNG)
+
+Validated using Jigsaw. (The reccomended site.)
+
+## Python Validation
+![Validation for my Python - forms.py](static/images/Final-project-python-validation-forms.PNG)
+![Validation for my Python - settings.py](static/images/Final-project-python-validation-settings.PNG)
+![Validation for my Python - views.py](static/images/Final-project-python-validation-views.PNG)
+![Validation for my Python - urls.py](static/images/Final-project-python-validation-urls.PNG)
+![Validation for my Python - models.py](static/images/Final-project-python-validation-models.PNG)
+
+Validated using Pep8. (The reccomended site.)
+
+# Responsiveness 
+
+
+
