@@ -143,15 +143,41 @@ Create an NPC
 
 ![Homepage View - Galaxy 5](static/images/Galaxy-z-5-test-create-npc.PNG)
 
+NPC Guest
+
+![NPC Guest View - Galaxy 5](static/images/Galaxy-z-5-test-npc-guests.PNG)
+
 ## Ipad Pro
 
 Homepage
 
-![Homepage View - Ipad Pro]()
+![Homepage View - Ipad Pro](static/images/Ipad-pro-homepage.PNG)
+
+NPC Guest page
+
+![Homepage View - Ipad Pro](static/images/Ipad-pro-NPC-guests.PNG)
 
 Create an NPC
 
-![Homepage View - Ipad Pro]()
+![Homepage View - Ipad Pro](static/images/Ipad-pro-create-an-npc.PNG)
+
+Sign Out page
+
+![Sign Out page](static/images/Ipad-pro-Sign-out.PNG)
+
+# Testing
+
+# Links
+
+# Tools Used
+
+# Languages Used
+
+# Known Bugs
+
+# Deployment
+
+# Credit
 
 
 
