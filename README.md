@@ -99,11 +99,17 @@ I found the flowchat helpful in visualising what parts of the website needed to 
 Validated using Jigsaw. (The reccomended site.)
 
 ## Python Validation
+Forms.png
 ![Validation for my Python - forms.py](static/images/Final-project-python-validation-forms.PNG)
+Settings.png
 ![Validation for my Python - settings.py](static/images/Final-project-python-validation-settings.PNG)
+Views.png
 ![Validation for my Python - views.py](static/images/Final-project-python-validation-views.PNG)
+Urls.png
 ![Validation for my Python - urls.py](static/images/Final-project-python-validation-urls.PNG)
+Models.png
 ![Validation for my Python - models.py](static/images/Final-project-python-validation-models.PNG)
+
 
 Validated using Pep8. (The reccomended site.)
 
