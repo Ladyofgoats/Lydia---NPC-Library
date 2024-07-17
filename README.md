@@ -91,6 +91,22 @@ I found the flowchat helpful in visualising what parts of the website needed to 
 
 # Validation
 ## HTML Validation
+Register.html - Some allauth errors..
+![Validation for my html - Register](static/images/Final-project-html-validation-Sign-up-page.PNG)
+Log In
+![Validation for my html - Log in](static/images/Final-project-html-validation.log-in-page.PNG)
+Homepage
+![Validation for my html - Homepage](static/images/Final-project-html-validation-homepage.PNG)
+About
+![Validation for my html - About](static/images/Final-project-html-validation-about-page.PNG)
+NPC Guests
+![Validation for my html - NPC Guests](static/images/Final-project-html-validation-NPCguests-page.PNG)
+Create an NPC
+![Validation for my html - Create an NPC](static/images/Final-project-html-validation-Create-an-NPC-page.PNG)
+Writing Advice
+![Validation for my html - Writing Advice](static/images/Final-project-html-validation-writing-advice-page.PNG)
+Log out
+![Validation for my html - Log out](static/images/Final-project-html-validation-log-out-page.PNG)
 
 
 ## CSS Validation
@@ -114,6 +130,32 @@ Models.png
 Validated using Pep8. (The reccomended site.)
 
 # Responsiveness 
+I tested the website on varying device sizes using Google Chrome's developer tools.
+
+I have tested the website on the Google Chrome browser as well as the following sized devices:
+
+## Galaxy Z Fold 5
+Homepage
+
+![Homepage View - Galaxy 5](static/images/Galaxy-z-5-test.PNG)
+
+Create an NPC
+
+![Homepage View - Galaxy 5](static/images/Galaxy-z-5-test-create-npc.PNG)
+
+## Ipad Pro
+
+Homepage
+
+![Homepage View - Ipad Pro]()
+
+Create an NPC
+
+![Homepage View - Ipad Pro]()
+
+
+
+
 
 
 
