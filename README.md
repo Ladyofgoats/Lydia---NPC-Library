@@ -21,8 +21,9 @@ The Target audience for the NPC Library is anyone who wants to keep track of var
 * Add the ability to put a longer description in about each NPC.
 * Add the ability to log into the NPC Library.
 * Add a section about writing advice for both creating NPC's and wider writing.
-# Wireframes and Initial Design
 
+# Wireframes and Initial Design
+The navbar in the final website looks different to the navbar in the wireframes after I made some adjustments to the formatting.
 ### Home Page
 ![Home page](static/images/Final-project-home-page.PNG)
 
@@ -41,6 +42,22 @@ The Target audience for the NPC Library is anyone who wants to keep track of var
 ### Submit an NPC page
 ![Submit an NPC page](static/images/Final-project-Submit-an-NPC.PNG)
 
+## Mobile Wireframes
+
+### Sign Up
+![Sign Up](static/images/Mobile-signup-wireframe.PNG)
+### Home Page
+![Home Page](static/images/Mobile-Homepage-wireframe.PNG)
+### About Page
+![About Page](static/images/Mobile-About-wireframe.PNG)
+### NPC Guests
+![NPC Guests page](static/images/Mobile-NPCGuests-wireframe.PNG)
+### Writing Advice
+![Writing Advice page](static/images/Mobile-Writingadvice-wireframe.PNG)
+### Log in page
+![Sign in page](static/images/Mobile-signin-wireframe.PNG)
+### Create an NPC
+![Create an NPC page](static/images/Mobile-createannpc-wireframe.PNG)
 # Agile
 For this project I used the agile development method, this was not something I had done before as a solo developer so I took some time at the start of the project to try to go through and do everything properly from the start.I found by creating the Kanban board and user stroies I was able to priorotise and guide myself to fulfil the project criteria. I was able to reduce the normal amount of anxiety and stress I feel when working to a tight dealine by staying focused on one objective at a time.
 
@@ -68,12 +85,15 @@ The log in page allows anyone who wants to use the website to sign up or log in 
 A user must make an acount with the website before they are allowed to reach the homepage, I made this so anyone interested in the website would have the oppotunity to create entry's for their own use.
 ![Homepage](static/images/Features-homepage.PNG)
 ### About page
+This is a page just to give some inofrmation about the creator of the website.
 ![About Page](static/images/Features-about-page.PNG)
 ### Writing Advice
+This is a page giving some advcie about writing NPC's for people's own use.
 ![Writing Advice Page](static/images/Features-writing-advice.PNG)
 ### NPC Guests
-![NPC Guests Page](static/images/Features-NPCguests.PNG)
 The NPC guests page is where users can add new NPC's as well as edit and delte their own entry's. This entry will then be visible on the NPC guest page.
+![NPC Guests Page](static/images/Features-NPCguests.PNG)
+
 
 # Future Plans
 In the future I would like to add the following:
@@ -175,6 +195,34 @@ Sign Out page
 ![Sign Out page](static/images/Ipad-pro-Sign-out.PNG)
 
 # Testing
+## Lighthouse Audit
+Homepage
+
+![Homepage Audit](static/images/Lighthouse-audit-homepage.PNG)
+
+About page
+
+![About page Audit](static/images/Lighthouse-audit-about.PNG)
+
+NPC Guests page
+
+![NPC Guests page Audit](static/images/Lighthouse-audit-npcguests.PNG)
+
+Writing Advice
+
+![Writing advice Audit](static/images/Lighthouse-audit-writingadvice.PNG)
+
+Sign In
+
+![Sign in page Audit](static/images/Lighthouse-audit-signin.PNG)
+
+Create an NPC
+
+![Create an NPC page Audit](static/images/Lighthouse-audit-createnanpc.PNG)
+
+Sign Out
+
+![Sign Out Audit](static/images/Lighthouse-audit-signout.PNG)
 
 # Links
 
