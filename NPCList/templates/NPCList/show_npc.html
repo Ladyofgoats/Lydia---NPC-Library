@@ -7,6 +7,9 @@
 </header>
 <p>Enjoy!</p>
 <a href="{% url 'create_npc' %}" class="btn btn-primary mb-4">Create an NPC</a> <!-- Use 'create_npc' as defined in urls.py -->
+<form action="{% url 'delete_npc' entry.slug %}" method="post">{% csrf_token %}<button type="submit">Delete</button></form>
+<br>
+<a href="{% url 'edit_npc' entry.slug %}" class="button">Edit</a>
 <div class="container">
     <div class="row">
         <br>
@@ -23,9 +26,41 @@
 </div>
 <br>
 
-<form action="{% url 'delete_npc' entry.slug %}" method="post">{% csrf_token %}<button type="submit">Delete</button></form>
-<br>
-<a href="{% url 'edit_npc' entry.slug %}" class="button">Edit</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {% endblock %}
 
