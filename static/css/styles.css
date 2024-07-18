@@ -68,8 +68,9 @@ footer {
     padding: 1rem 0;
     text-align: center;
     margin-top: auto; 
-    position:fixed;
+    position:absolute;
     bottom: 0;
+    right: 0;
     width: 100%;
 }
 
