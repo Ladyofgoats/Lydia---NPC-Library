@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-color: #f8f9fa; 
+    padding-top: 70px;
 }
 
 /* Header */
@@ -21,6 +22,7 @@ header h1 {
 /* Navbar */
 .navbar {
     margin-bottom: 2rem;
+    
 }
 
 .navbar-brand, .navbar-nav .nav-link {
@@ -110,4 +112,5 @@ footer .blockquote-footer {
 li {
    padding-bottom: 10px;
 }
+
 

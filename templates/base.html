@@ -14,9 +14,22 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
 
     <title>NPC Library - Your one stop for all quick NPC ideas!</title>
-    
+    <style>
+        html, body {
+            height: 100%;
+                }
+        .container {
+            flex-grow: 1;
+                }
+        .content {
+             min-height: calc(100vh - 100px); 
+                }
+        .footer {
+            height: 100px; 
+                }
+        </style>   
 </head>
-<body>
+<body class="d-flex flex-column h-100">
     <header class="bg-primary py-3 mb-4">
         <div class="container">
             <h1>NPC Library - Your one stop for all quick NPC ideas!</h1>
@@ -69,7 +82,7 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="bg-light py-3 mt-4 fixed-bottom">
+    <footer class="bg-light py-3 mt-auto footer">
         <div class="container-fluid">
             <div class="card">
                 <div class="card-header">
