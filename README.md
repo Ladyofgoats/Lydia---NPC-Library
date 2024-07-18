@@ -49,25 +49,30 @@ For this project I used the agile development method, this was not something I h
 # Aesthetic Choices
 The colours for the website were picked to give a clean and functional look without distracting bright colours. I tried to have the colour go from lighter to darker as it went down the page.
 
-Header - #014181
-Text - #ffffff
-Footer - #014181
-Footer Secondary Colour - #495057 / #2c3033
-Fonts - Arial 
+* Header - #014181
+
+* Text - #ffffff
+
+* Footer - #014181
+
+* Footer Secondary Colour - #495057 / #2c3033
+
+* Fonts - Arial 
 
 ## Features
 
 ### Log In
 The log in page allows anyone who wants to use the website to sign up or log in with a previously created account. 
+![Log In Page](static/images/Features-log-in-page.PNG)
 ### Homepage
 A user must make an acount with the website before they are allowed to reach the homepage, I made this so anyone interested in the website would have the oppotunity to create entry's for their own use.
-
+![Homepage](static/images/Features-homepage.PNG)
 ### About page
-
+![About Page](static/images/Features-about-page.PNG)
 ### Writing Advice
-
+![Writing Advice Page](static/images/Features-writing-advice.PNG)
 ### NPC Guests
-
+![NPC Guests Page](static/images/Features-NPCguests.PNG)
 The NPC guests page is where users can add new NPC's as well as edit and delte their own entry's. This entry will then be visible on the NPC guest page.
 
 # Future Plans
@@ -147,6 +152,10 @@ NPC Guest
 
 ![NPC Guest View - Galaxy 5](static/images/Galaxy-z-5-test-npc-guests.PNG)
 
+Sign Out Page
+
+![Sign out page - Galaxy 5](static/images/Galaxy-z-5-test-sign-out.PNG)
+
 ## Ipad Pro
 
 Homepage
@@ -155,11 +164,11 @@ Homepage
 
 NPC Guest page
 
-![Homepage View - Ipad Pro](static/images/Ipad-pro-NPC-guests.PNG)
+![NPC Guests View - Ipad Pro](static/images/Ipad-pro-NPC-guests.PNG)
 
 Create an NPC
 
-![Homepage View - Ipad Pro](static/images/Ipad-pro-create-an-npc.PNG)
+![Create an NPC View - Ipad Pro](static/images/Ipad-pro-create-an-npc.PNG)
 
 Sign Out page
 
