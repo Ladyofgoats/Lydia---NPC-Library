@@ -120,15 +120,15 @@ Log out
 Validated using Jigsaw. (The reccomended site.)
 
 ## Python Validation
-Forms.png
+Forms.py
 ![Validation for my Python - forms.py](static/images/Final-project-python-validation-forms.PNG)
-Settings.png
+Settings.py
 ![Validation for my Python - settings.py](static/images/Final-project-python-validation-settings.PNG)
-Views.png
+Views.py
 ![Validation for my Python - views.py](static/images/Final-project-python-validation-views.PNG)
-Urls.png
+Urls.py
 ![Validation for my Python - urls.py](static/images/Final-project-python-validation-urls.PNG)
-Models.png
+Models.py
 ![Validation for my Python - models.py](static/images/Final-project-python-validation-models.PNG)
 
 
