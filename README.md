@@ -104,6 +104,7 @@ In the future I would like to add the following:
 * A way to form a community, perhaps adding a socail media presence.
 * Add a way to make comments on their entry's to mark important events.
 * Add a linknig system so one NPC can link to another.
+* Implement the ability to retrieve forgotton passwords
 
 ### Database Design
 ![Database Design](static/images/Lucid-App-final-project-database-network.PNG)
@@ -254,15 +255,29 @@ Sign Out
 # Tools Used
 * Python used as the back-end programming language
 * Git used for version control, utilising git add, git commit and git push.
-*
+* GitHub used for secure online code storage.
+* Render used to host the deployed back-end site.
+* Bootstrap was used for the front end CSS to make it easier to later edit.
+* Google and Stack overflow were used for research as well as talking problems over with other students on the course.
+* GitHub Pages used for hosting the deployed front-end site.
+* 
 # Languages Used
-
+* HTML5
+* CSS
+* Python
 # Known Bugs
-
+All the known bugs in this version of the website have been resolved. Some parts of the application have been partially added but were not part of the MVP and so I focused on achieving MVP. I hope to address these areas of the website in the near future.
 # Deployment
-
+I had to use the cheat sheet provided by my facilitator for deploying the project to Render. It went fairly smoothly for the most part with a few issues in the early days.
 # Credit
-
+* I used the LMS Django blog project as the basis for this project but made some alterations whilst watching the NetNinja video going over how to make a Django blog project.
+* The other members of my cohort were very helpful in dealing withseveral issues I ran into as was the coding coach.
+* The Fonts were taken from google fonts
+* I used some interesting prompts for characters from a Tumblr post I saw when scrolling.
+* Stack Overflow was able to sometimes provide assistance with some of the issues I ran into.
+* I took inspiration for my user storeis from some example sites shown to us by our facilitator
+* I used Balsamiq for creating my Wireframes
+* I used Lucid to create my databse diagram and website flow chart. 
 
 
 
