@@ -276,7 +276,7 @@ All the known bugs in this version of the website have been resolved. Some parts
 I had to use the cheat sheet provided by my facilitator for deploying the project to Render. It went fairly smoothly for the most part with a few issues in the early days.
 # Credit
 * I used the LMS Django blog project as the basis for this project but made some alterations whilst watching the NetNinja video going over how to make a Django blog project.
-* The other members of my cohort were very helpful in dealing withseveral issues I ran into as was the coding coach.
+* The other members of my cohort were very helpful in dealing with several issues I ran into as was the coding coach.
 * The Fonts were taken from google fonts
 * I used some interesting prompts for characters from a Tumblr post I saw when scrolling.
 * Stack Overflow was able to sometimes provide assistance with some of the issues I ran into.
