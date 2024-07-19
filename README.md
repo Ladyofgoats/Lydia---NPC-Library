@@ -21,6 +21,7 @@ The Target audience for the NPC Library is anyone who wants to keep track of var
 * Add the ability to put a longer description in about each NPC.
 * Add the ability to log into the NPC Library.
 * Add a section about writing advice for both creating NPC's and wider writing.
+* As an admin I want to be able to delte users or entry's which are no longer in use.
 
 # Wireframes and Initial Design
 The navbar in the final website looks different to the navbar in the wireframes after I made some adjustments to the formatting.
@@ -224,10 +225,36 @@ Sign Out
 
 ![Sign Out Audit](static/images/Lighthouse-audit-signout.PNG)
 
+| Feature | Expected Outcome | Grade | Screenshots |
+| ------- | ---------------- | ----- | --------- |
+| User Log in | Users are ablew to log into the website | Pass | ![User Log in](static/images/Features-log-in-page.PNG) |
+| View NPC entries | Users are able to view the NPC's they have created | Pass | ![View of NPC Entries](static/images/Features-NPCguests.PNG) |
+| Add a section called writing advice | Users will be able to see the writing advice page | Pass | ![View of the Writing Advice page](static/images/Features-writing-advice.PNG) |
+| Admin can delete users and entries | Admin will be able to delete admins and users as they wish | Pass | ![Admin view](static/images/Final-project-admin-access.PNG) |
+| Add an NPC | Users are able to create new NPC entry's | Pass | ![Create new NPC](static/images/Final-project-createnanpc.PNG) |
+| Put NPC Description in place | Users will be able to provide a description for different NPC's | Pass | ![View of the description box for NPC Entry's](static/images/Final-project-npcdescription.PNG)
+| User can delete and edit NPC's | Users will be able to make changes to their entry's or delete them if they are no longer relevent | Pass | ![Edit or delete NPC's](static/images/Final-project-editnpc.PNG) |
+| User Sign Up | Users are ablew to sign up to an account | Pass | ![User Log in](static/images/Final-project-signuppage.PNG) |
+| Footer | A Footer with a motivational quote is present | Pass | ![User Log in](static/images/Final-project-footer.PNG) |
+| User Log out | Users are ablew to log out the website | Pass | ![User Log in](static/images/Final-project-logoutpage.PNG) |
+
 # Links
+| Link | Expected result | Pass/Fail |
+| ------- | ---------------- | ----- |
+| Logo | Navigates to the homepage when clicked | Pass |
+| Homepage | Navigates to the homepage when clicked | Pass |
+| About | Navigates to a About  page when clicked | Pass |
+| NPC Guests | Navigates to NPC Guests page when clicked | Pass |
+| Create an NPC | Navigates to a page allowing the user to create an NPC | Pass |
+| Writing Advice | Navigates to Writing Advice when clicked | Pass |
+| Sign In | Navigates to a screen where users can Sign in when clicked | Pass |
+| Logout | Navigates to a page confirming for the user to log out | Pass |
+| Sign Up | Navigates to a page confirming for the user to Sign up | Pass |
 
 # Tools Used
-
+* Python used as the back-end programming language
+* Git used for version control, utilising git add, git commit and git push.
+*
 # Languages Used
 
 # Known Bugs
