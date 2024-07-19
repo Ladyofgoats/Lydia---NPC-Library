@@ -14,14 +14,13 @@ The purpose of the NPC Library is to provide a place for Game Masters and other 
 ### Target Audience
 The Target audience for the NPC Library is anyone who wants to keep track of various characters, be they NPC's or other characters who may feature in works of fiction. I hope that this website will be of value to aspiring Game Masters and allow paper notes to become a thing of the past.
 # Persona and User Stories
-* As an admin I want to be able to delete entry's that are either inappropriate or not in use anymore.
-* As a user I want to be able to edit my entry's to update them and also delete them if they become become no longer relevant.
+* As an admin I want to be able to delete entry's that are either inappropriate or not in use anymore. 
+* As a user I want to be able to edit my entry's to update them and also delete them if they become become no longer relevant. 
 * I want to be able to create an account so I can access the website and not have my entry's available to everyone.
 * I want to be able to keep a list of NPC's for my use that I can look at with a glance.
 * Add the ability to put a longer description in about each NPC.
 * Add the ability to log into the NPC Library.
 * Add a section about writing advice for both creating NPC's and wider writing.
-* As an admin I want to be able to delte users or entry's which are no longer in use.
 
 # Wireframes and Initial Design
 The navbar in the final website looks different to the navbar in the wireframes after I made some adjustments to the formatting.
@@ -226,18 +225,24 @@ Sign Out
 
 ![Sign Out Audit](static/images/Lighthouse-audit-signout.PNG)
 
-| Feature | Expected Outcome | Grade | Screenshots |
-| ------- | ---------------- | ----- | --------- |
-| User Log in | Users are ablew to log into the website | Pass | ![User Log in](static/images/Features-log-in-page.PNG) |
-| View NPC entries | Users are able to view the NPC's they have created | Pass | ![View of NPC Entries](static/images/Features-NPCguests.PNG) |
-| Add a section called writing advice | Users will be able to see the writing advice page | Pass | ![View of the Writing Advice page](static/images/Features-writing-advice.PNG) |
-| Admin can delete users and entries | Admin will be able to delete admins and users as they wish | Pass | ![Admin view](static/images/Final-project-admin-access.PNG) |
-| Add an NPC | Users are able to create new NPC entry's | Pass | ![Create new NPC](static/images/Final-project-createnanpc.PNG) |
-| Put NPC Description in place | Users will be able to provide a description for different NPC's | Pass | ![View of the description box for NPC Entry's](static/images/Final-project-npcdescription.PNG)
-| User can delete and edit NPC's | Users will be able to make changes to their entry's or delete them if they are no longer relevent | Pass | ![Edit or delete NPC's](static/images/Final-project-editnpc.PNG) |
-| User Sign Up | Users are ablew to sign up to an account | Pass | ![User Log in](static/images/Final-project-signuppage.PNG) |
-| Footer | A Footer with a motivational quote is present | Pass | ![User Log in](static/images/Final-project-footer.PNG) |
-| User Log out | Users are ablew to log out the website | Pass | ![User Log in](static/images/Final-project-logoutpage.PNG) |
+# User Story Testing
+* As an admin I want to be able to delete entry's that are either inappropriate or not in use anymore. 
+![Admin view](static/images/Final-project-admin-access.PNG)
+* As a user I want to be able to edit my entry's to update them and also delete them if they become become no longer relevant.
+![Edit or delete NPC's](static/images/Final-project-editnpc.PNG)
+* I want to be able to create an account so I can access the website and not have my entry's available to everyone.
+![User Log in](static/images/Final-project-signuppage.PNG)
+* I want to be able to keep a list of NPC's for my use that I can look at with a glance.
+![View of NPC Entries](static/images/Features-NPCguests.PNG)
+* Add the ability to put a longer description in about each NPC.
+![View of the description box for NPC Entry's](static/images/Final-project-npcdescription.PNG)
+* Add the ability to log into the NPC Library.
+![User Log in](static/images/Features-log-in-page.PNG)
+* Add a section about writing advice for both creating NPC's and wider writing.
+![View of the Writing Advice page](static/images/Features-writing-advice.PNG)
+* As a User I want to be able to create new NPC entry's.
+![Create new NPC](static/images/Final-project-createnanpc.PNG) 
+
 
 # Links
 | Link | Expected result | Pass/Fail |
