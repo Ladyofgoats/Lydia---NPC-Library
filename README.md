@@ -260,7 +260,7 @@ Sign Out
 * Bootstrap was used for the front end CSS to make it easier to later edit.
 * Google and Stack overflow were used for research as well as talking problems over with other students on the course.
 * GitHub Pages used for hosting the deployed front-end site.
-* 
+
 # Languages Used
 * HTML5
 * CSS
